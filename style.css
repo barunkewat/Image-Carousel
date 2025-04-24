@@ -81,7 +81,7 @@ img{
     
     .card{
         width: 25vw;
-        height: 32vw;
+        height: 25vw;
         transition: transform 0.1s ease-out;
         overflow: hidden;
     }
