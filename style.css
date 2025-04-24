@@ -61,3 +61,36 @@ img{
     object-fit: cover;
     transition: transform 0.1s ease-out;
 }
+
+@media (min-width: 480px) and (max-width: 768px) {
+    p{
+        font-size: clamp(10px, 12px, 14px);
+        font-weight: 400;
+    }
+
+    .slider{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 500%;
+        height: 100vh;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    .card{
+        width: 25vw;
+        height: 32vh;
+        transition: transform 0.1s ease-out;
+        overflow: hidden;
+    }
+    
+    img{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        transition: transform 0.1s ease-out;
+    }
+    
+}
