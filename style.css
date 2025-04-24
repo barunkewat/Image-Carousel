@@ -80,8 +80,8 @@ img{
     }
     
     .card{
-        width: 25vw;
-        height: 25vw;
+        width: 100px;
+        height: 150px;
         transition: transform 0.1s ease-out;
         overflow: hidden;
     }
